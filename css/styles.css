@@ -20,7 +20,7 @@
 html, body {
   background: var(--bg);
   color: var(--ink);
-  font-family: "Outfit", Helvetica, Arial, sans-serif;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.55;
