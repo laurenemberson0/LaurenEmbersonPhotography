@@ -54,10 +54,19 @@ your style, your story, what you love to shoot.`,
 };
 
 /* ----------------------------------------------------------------------------
-   CONTACT page. Leave any value as "" to hide that line.
+   CONTACT page.
+   To reduce spam scraping, the email and phone are stored in PIECES here and
+   the page reassembles them in the browser. Just fill in your real pieces:
+     emailUser + "@" + emailDomain  ->  your full email
+     phoneDigits (numbers only)     ->  your dialable number
+     phoneDisplay                   ->  how the number should read on screen
+   Leave any value as "" to hide that line.
 ---------------------------------------------------------------------------- */
 const CONTACT = {
-  email: "hello@laurenembersonphotography.com",
-  phone: "+1 (000) 000-0000",
-  instagram: { label: "@laurenemberson", url: "https://instagram.com/laurenemberson" }
+  emailUser: "hello",
+  emailDomain: "laurenembersonphotography.com",
+  phoneDisplay: "+1 (000) 000-0000",
+  phoneDigits: "+10000000000",
+  instagramHandle: "@laurenemberson",
+  instagramUrl: "https://instagram.com/laurenemberson"
 };

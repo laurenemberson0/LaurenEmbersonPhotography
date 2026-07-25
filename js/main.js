@@ -42,21 +42,28 @@ buildGallery("gallery-portraits", typeof PORTRAITS !== "undefined" ? PORTRAITS :
   }
 })();
 
-/* Contact page. */
+/* Contact page — a simple stack of links, assembled here in the browser so
+   the raw email/phone never appear as plain text in the page source (which is
+   what most spam bots scrape). */
 (function buildContact() {
-  if (typeof CONTACT === "undefined") return;
-  const email = document.getElementById("contact-email");
-  if (email && CONTACT.email) {
-    email.innerHTML = '<a href="mailto:' + CONTACT.email + '">' + CONTACT.email + "</a>";
+  const wrap = document.getElementById("contact-list");
+  if (!wrap || typeof CONTACT === "undefined") return;
+
+  function line(html) {
+    const p = document.createElement("p");
+    p.innerHTML = html;
+    wrap.appendChild(p);
   }
-  const phone = document.getElementById("contact-phone");
-  if (phone && CONTACT.phone) {
-    const tel = CONTACT.phone.replace(/[^+0-9]/g, "");
-    phone.innerHTML = '<a href="tel:' + tel + '">' + CONTACT.phone + "</a>";
+
+  if (CONTACT.emailUser && CONTACT.emailDomain) {
+    const addr = CONTACT.emailUser + "@" + CONTACT.emailDomain;   // assembled at runtime
+    line('<a href="mailto:' + addr + '">' + addr + "</a>");
   }
-  const ig = document.getElementById("contact-instagram");
-  if (ig && CONTACT.instagram && CONTACT.instagram.url) {
-    ig.innerHTML = '<a href="' + CONTACT.instagram.url + '" target="_blank" rel="noopener">' +
-      (CONTACT.instagram.label || "Instagram") + "</a>";
+  if (CONTACT.phoneDisplay && CONTACT.phoneDigits) {
+    line('<a href="tel:' + CONTACT.phoneDigits + '">' + CONTACT.phoneDisplay + "</a>");
+  }
+  if (CONTACT.instagramHandle && CONTACT.instagramUrl) {
+    line('<a href="' + CONTACT.instagramUrl + '" target="_blank" rel="noopener">' +
+      CONTACT.instagramHandle + "</a>");
   }
 })();

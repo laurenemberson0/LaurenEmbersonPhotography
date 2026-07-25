@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lauren Emberson — Profile</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -20,12 +23,14 @@
     </nav>
   </header>
 
-  <main class="page">
-    <img class="profile__photo" id="profile-photo" src="" alt="" />
-    <p class="profile__bio" id="profile-bio"></p>
+  <main class="profile">
+    <div class="profile__intro">
+      <img class="profile__photo" id="profile-photo" src="" alt="" />
+      <p class="profile__bio" id="profile-bio"></p>
+    </div>
 
-    <div class="info-row">
-      <div class="info-row__label">Featured In</div>
+    <div class="profile__featured">
+      <div class="profile__featured-label">Featured In</div>
       <div class="info-row__values" id="featured-list"></div>
     </div>
   </main>
