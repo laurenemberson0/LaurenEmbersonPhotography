@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1150" viewBox="0 0 800 1150">
+  <rect width="800" height="1150" fill="#d9d5cc"/>
+  <rect x="0.5" y="0.5" width="799" height="1149" fill="none" stroke="#b9b4a8"/>
+  <text x="50%" y="50%" fill="#8a8578" font-family="Helvetica,Arial,sans-serif"
+        font-size="30" text-anchor="middle" dy="0.35em">portrait 2</text>
+</svg>
