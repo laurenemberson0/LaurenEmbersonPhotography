@@ -14,11 +14,11 @@
 html, body {
   background: var(--bg);
   color: var(--ink);
-  font-family: "Jost", Helvetica, Arial, sans-serif;
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;          /* slightly larger */
   font-weight: 500;         /* slightly thicker, uniform */
   line-height: 1.55;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -73,31 +73,39 @@ a { color: inherit; text-decoration: none; }
    PROFILE — centered image + bio, with a full-width "Featured In" row
    (matching the example layout)
 ============================================================================ */
+/* The left "gutter" (label column + gap) that everything on the right aligns to */
 .profile {
+  --label-col: 220px;
+  --gutter: 244px;           /* 220px label column + 24px gap */
   padding: calc(var(--nav-h) + 96px) 32px 112px;
 }
+/* Photo + bio sit in the SAME column as the "Featured In" values,
+   so photo, bio, and "Publication One" share one left edge. */
 .profile__intro {
-  max-width: 620px;
-  margin: 0 auto 4.5rem;     /* centered block */
+  margin-left: var(--gutter);
+  max-width: 560px;
 }
 .profile__photo {
   display: block;
   width: 100%;
   max-width: 440px;
   height: auto;
-  margin: 0 auto 2.2rem;     /* centered image */
+  margin: 0 0 2.4rem;        /* left-aligned within the column */
   border: 1px solid var(--frame);
 }
 .profile__bio {
-  text-align: left;          /* left-aligned text within the centered block */
+  text-align: justify;       /* flush on both edges */
+  margin: 0 0 3.5rem;
 }
 .profile__featured {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 24px;
-  max-width: 1000px;
+  grid-template-columns: var(--label-col) 1fr;
+  column-gap: 24px;
+  max-width: 824px;
 }
-.profile__featured .info-row__values p { margin-bottom: 0.4rem; }
+.profile__featured-label { grid-column: 1; }
+.profile__featured #featured-list { grid-column: 2; }
+.profile__featured #featured-list p { margin-bottom: 0.4rem; }
 
 /* ============================================================================
    CONTACT — simple left-aligned stack (email, phone, instagram),
@@ -119,6 +127,9 @@ a { color: inherit; text-decoration: none; }
     padding: calc(var(--nav-h) + 40px) 24px 80px;
   }
   .gallery img { margin-bottom: 48px; }
+
+  /* Profile stacks: no left gutter offset when the screen is narrow */
+  .profile__intro { margin-left: 0; }
 }
 
 @media (max-width: 640px) {
