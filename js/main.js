@@ -10,11 +10,22 @@
   });
 })();
 
+/* Return a new, randomly shuffled copy of a list (Fisher–Yates).
+   Used so the galleries appear in a fresh order on every page load. */
+function shuffled(list) {
+  const a = list.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+  }
+  return a;
+}
+
 /* Fill a gallery container with framed images from a list. */
 function buildGallery(id, list) {
   const el = document.getElementById(id);
   if (!el || !Array.isArray(list)) return;
-  list.forEach(function (src) {
+  shuffled(list).forEach(function (src) {
     const img = document.createElement("img");
     img.src = src;
     img.alt = "";
