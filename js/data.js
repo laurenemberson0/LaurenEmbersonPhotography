@@ -14,12 +14,55 @@ const PHOTOGRAPHER_NAME = "Lauren Emberson";
    To add a photo: add a new "images/weddings/yourphoto.jpg", line.
 ---------------------------------------------------------------------------- */
 const WEDDINGS = [
-  "images/weddings/w1.svg",
-  "images/weddings/w2.svg",
-  "images/weddings/w3.svg",
-  "images/weddings/w4.svg",
-  "images/weddings/w5.svg",
-  "images/weddings/w6.svg"
+  "images/weddings/1M9A8049.jpg",
+  "images/weddings/1M9A9224.jpg",
+  "images/weddings/1M9A9356.jpg",
+  "images/weddings/Abby+Omar-11.jpg",
+  "images/weddings/Abby+Omar-130.jpg",
+  "images/weddings/Abby+Omar-146.jpg",
+  "images/weddings/Abby+Omar-15.jpg",
+  "images/weddings/Abby+Omar-182.jpg",
+  "images/weddings/Abby+Omar-203.jpg",
+  "images/weddings/Abby+Omar-240.jpg",
+  "images/weddings/Abby+Omar-323.jpg",
+  "images/weddings/Abby+Omar-325.jpg",
+  "images/weddings/Abby+Omar-332.jpg",
+  "images/weddings/Abby+Omar_Previews_06.jpg",
+  "images/weddings/Abby+Omar_Previews_07.jpg",
+  "images/weddings/Abby+Omar_Previews_09.jpg",
+  "images/weddings/Carly+Chris072.jpg",
+  "images/weddings/Carly+Chris079.jpg",
+  "images/weddings/Carly+Chris121.jpg",
+  "images/weddings/Carly+Chris150.jpg",
+  "images/weddings/Carly+Chris202.jpg",
+  "images/weddings/IMG_1230.jpg",
+  "images/weddings/IMG_7405.jpg",
+  "images/weddings/IMG_7513.jpg",
+  "images/weddings/IMG_7915.jpg",
+  "images/weddings/Jesse+Lily-105.jpg",
+  "images/weddings/Jesse+Lily-119.jpg",
+  "images/weddings/Jesse+Lily-121.jpg",
+  "images/weddings/Jesse+Lily-131.jpg",
+  "images/weddings/Jesse+Lily-134.jpg",
+  "images/weddings/Jesse+Lily-175.jpg",
+  "images/weddings/Jesse+Lily-221.jpg",
+  "images/weddings/Jesse+Lily-396.jpg",
+  "images/weddings/Jesse+Lily-415.jpg",
+  "images/weddings/Jesse+Lily-654.jpg",
+  "images/weddings/LaurenEmbersonPhotography-285.jpg",
+  "images/weddings/LaurenEmbersonPhotography-311.jpg",
+  "images/weddings/LaurenEmbersonPhotography-37.jpg",
+  "images/weddings/LaurenEmbersonPhotography-404.jpg",
+  "images/weddings/LaurenEmbersonPhotography-51.jpg",
+  "images/weddings/LaurenEmbersonPhotography-71.jpg",
+  "images/weddings/LaurenEmbersonPhotography-75.jpg",
+  "images/weddings/LaurenEmbersonPhotography-99.jpg",
+  "images/weddings/Sof+Mike-Previews-03.jpg",
+  "images/weddings/Sof+Mike-Previews-15.jpg",
+  "images/weddings/Sof+Mike-Previews-23.jpg",
+  "images/weddings/Sofia+Mike-036.jpg",
+  "images/weddings/Sofia+Mike-099.jpg",
+  "images/weddings/Sofia+Mike-290.jpg"
 ];
 
 /* ----------------------------------------------------------------------------
@@ -41,7 +84,7 @@ const PORTRAITS = [
      featuredIn -> list of places your work has been featured
 ---------------------------------------------------------------------------- */
 const PROFILE = {
-  photo: "images/profile/lauren.svg",
+  photo: "images/profile/lauren.jpg",
   bio: `I'm Lauren, a photographer based in British Columbia, Canada,
 specializing in documentary style weddings and portraits. I prioritize 
 intentional, analog image making as much as possible. I studied 
