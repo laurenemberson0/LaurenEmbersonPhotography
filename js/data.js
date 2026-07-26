@@ -108,10 +108,10 @@ product photography and portraits in a studio environment.`,
    Leave any value as "" to hide that line.
 ---------------------------------------------------------------------------- */
 const CONTACT = {
-  emailUser: "hello",
-  emailDomain: "laurenembersonphotography.com",
-  phoneDisplay: "+1 (000) 000-0000",
-  phoneDigits: "+10000000000",
+  emailUser: "lauren",
+  emailDomain: "laurenemberson.ca",
+  phoneDisplay: "+1 (905) 348-9733",
+  phoneDigits: "+19053489733",
   instagramHandle: "@laurenemberson",
   instagramUrl: "https://instagram.com/laurenemberson"
 };
