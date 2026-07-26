@@ -25,7 +25,6 @@ const WEDDINGS = [
   "images/weddings/Abby+Omar-323.jpg",
   "images/weddings/Abby+Omar-325.jpg",
   "images/weddings/Abby+Omar-332.jpg",
-  "images/weddings/Abby+Omar_Previews_06.jpg",
   "images/weddings/Abby+Omar_Previews_07.jpg",
   "images/weddings/Abby+Omar_Previews_09.jpg",
   "images/weddings/Carly+Chris072.jpg",
