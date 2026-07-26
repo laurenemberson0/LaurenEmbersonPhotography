@@ -42,14 +42,16 @@ const PORTRAITS = [
 ---------------------------------------------------------------------------- */
 const PROFILE = {
   photo: "images/profile/lauren.svg",
-  bio: `Lauren Emberson is a photographer based in British Columbia, Canada,
-specializing in weddings and portraits. Replace this with your own words —
-your style, your story, what you love to shoot.`,
+  bio: `I'm Lauren, a photographer based in British Columbia, Canada,
+specializing in documentary style weddings and portraits. I prioritize 
+intentional, analog image making as much as possible. I studied 
+Media Production at Toronto Metropolitan University where I 
+experimented with storytelling in many shapes and forms, and 
+spent a number of years working in advertising where I practiced 
+product photography and portraits in a studio environment.`,
   featuredIn: [
-    "Publication One",
-    "Publication Two",
-    "Gallery / Festival",
-    "Publication Three"
+    "Amble Mag, 2018",
+    "Toronto Fringe Festival, 2019"
   ]
 };
 
