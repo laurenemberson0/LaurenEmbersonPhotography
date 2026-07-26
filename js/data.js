@@ -107,6 +107,6 @@ const CONTACT = {
   emailDomain: "laurenemberson.ca",
   phoneDisplay: "+1 (905) 348-9733",
   phoneDigits: "+19053489733",
-  instagramHandle: "@laurenemberson",
-  instagramUrl: "https://instagram.com/laurenemberson"
+  instagramHandle: "@laurenemberson.ca",
+  instagramUrl: "https://instagram.com/laurenemberson.ca"
 };
