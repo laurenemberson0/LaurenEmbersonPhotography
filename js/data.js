@@ -14,16 +14,14 @@ const PHOTOGRAPHER_NAME = "Lauren Emberson";
    To add a photo: add a new "images/weddings/yourphoto.jpg", line.
 ---------------------------------------------------------------------------- */
 const WEDDINGS = [
+  "images/weddings/1M9A0840.jpg",
   "images/weddings/1M9A8049.jpg",
   "images/weddings/1M9A9224.jpg",
   "images/weddings/1M9A9356.jpg",
   "images/weddings/Abby+Omar-11.jpg",
-  "images/weddings/Abby+Omar-130.jpg",
   "images/weddings/Abby+Omar-146.jpg",
-  "images/weddings/Abby+Omar-15.jpg",
   "images/weddings/Abby+Omar-182.jpg",
   "images/weddings/Abby+Omar-203.jpg",
-  "images/weddings/Abby+Omar-240.jpg",
   "images/weddings/Abby+Omar-323.jpg",
   "images/weddings/Abby+Omar-325.jpg",
   "images/weddings/Abby+Omar-332.jpg",
@@ -41,7 +39,6 @@ const WEDDINGS = [
   "images/weddings/IMG_7915.jpg",
   "images/weddings/Jesse+Lily-105.jpg",
   "images/weddings/Jesse+Lily-119.jpg",
-  "images/weddings/Jesse+Lily-121.jpg",
   "images/weddings/Jesse+Lily-131.jpg",
   "images/weddings/Jesse+Lily-134.jpg",
   "images/weddings/Jesse+Lily-175.jpg",
@@ -59,7 +56,6 @@ const WEDDINGS = [
   "images/weddings/LaurenEmbersonPhotography-99.jpg",
   "images/weddings/Sof+Mike-Previews-03.jpg",
   "images/weddings/Sof+Mike-Previews-15.jpg",
-  "images/weddings/Sof+Mike-Previews-23.jpg",
   "images/weddings/Sofia+Mike-036.jpg",
   "images/weddings/Sofia+Mike-099.jpg",
   "images/weddings/Sofia+Mike-290.jpg"
