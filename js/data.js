@@ -88,7 +88,7 @@ spent a number of years working in advertising where I practiced
 product photography and portraits in a studio environment. I prioritize 
 intentional, analog image making as much as possible.`,
   featuredIn: [
-    "Amble Mag, 2018",
+    "Amble Mag, 2020",
     "Toronto Fringe Festival, 2019"
   ]
 };
