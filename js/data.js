@@ -80,12 +80,8 @@ const PORTRAITS = [
 ---------------------------------------------------------------------------- */
 const PROFILE = {
   photo: "images/profile/lauren.jpg",
-  bio: `I'm Lauren, a photographer based in British Columbia, Canada,
-specializing in documentary style weddings and portraits. I studied 
-Media Production at Toronto Metropolitan University where I 
-experimented with storytelling in many shapes and forms, and 
-spent a number of years working in advertising where I practiced 
-product photography and portraits in a studio environment. I prioritize 
+  bio: `Lauren is a photographer based in British Columbia, Canada,
+specializing in documentary style weddings and portraits. I prioritize 
 intentional, analog image making as much as possible.`,
   featuredIn: [
     "Amble Mag, 2020",
