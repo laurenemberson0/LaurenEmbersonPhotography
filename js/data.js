@@ -80,7 +80,7 @@ const PORTRAITS = [
 ---------------------------------------------------------------------------- */
 const PROFILE = {
   photo: "images/profile/lauren.jpg",
-  bio: `Lauren is a photographer based in British Columbia, Canada,
+  bio: `I'm Lauren, a photographer based in British Columbia, Canada,
 specializing in documentary style weddings and portraits. I prioritize 
 intentional, analog image making as much as possible.`,
   featuredIn: [
